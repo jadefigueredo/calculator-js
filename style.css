@@ -17,7 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 4px #00000040;
     font-family: "Helvetica Neue", sans-serif;
-    overflow: hideen;
+    overflow: hidden;
 }
 .result{
     height: 75px;
@@ -45,4 +45,24 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+}
+.button-zero{
+    grid-column: span 2;
+}
+
+.bg-gray{
+    background-color: #585858;
+}
+
+.bg-light-gray{
+    background-color: #747474;
+}
+
+button:active{
+    opacity: 0.9;
+}
+
+
+.bg-orange{
+    background-color: #f2a43b;
 }
